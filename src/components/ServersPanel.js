@@ -49,9 +49,12 @@ const ServersPanel = () => {
             <div className='section-btn'>
               <a
                 href={`steam://connect/${serverData.ip}`}
-                className='btn btn-sm btn-primary-outline display-4'
+                className='connect btn btn-sm btn-primary-outline display-4'
               >
                 Connect
+              </a>
+              <a className='vip btn btn-sm btn-primary-outline display-4'>
+                VIP (Coming Soon)
               </a>
             </div>
           </div>

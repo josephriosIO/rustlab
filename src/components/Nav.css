@@ -22,7 +22,7 @@
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
-  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 1.5s steps(60, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */

@@ -15,7 +15,7 @@
   background-color: white;
   color: black;
   width: 33%;
-  height: 500px;
+  height: 520px;
   flex: 0 0 25%;
 }
 
@@ -50,6 +50,9 @@
   margin-left: -0.25rem;
   margin-right: -0.25rem;
   font-size: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .server-1 .section-btn .btn {
@@ -66,12 +69,15 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  word-break: break-word;
   position: relative;
   border-color: #0b566f;
   color: #0b566f;
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
+  width: 50%;
+}
+.vip {
+  cursor: disabled;
 }
 /* mobile view */
 @media screen and (max-width: 800px) {
@@ -87,5 +93,9 @@
     width: 50%;
     height: 500px;
     flex: 0 0 75%;
+  }
+
+  .server-1 .section-btn .connect {
+    display: none;
   }
 }
