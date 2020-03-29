@@ -1,23 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import Nav from './components/Nav';
 import './App.css';
+import ServersPanel from './components/ServersPanel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          RustLab Coming Soon
-        </p>
-        <a
-          className="App-link"
-          href="https://discord.gg/rNwwBF2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Join Our Discord!
-        </a>
-      </header>
+    <div className='App'>
+      <Nav />
+      <ServersPanel />
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.navbar #logo {
+  margin-left: 25px;
+}

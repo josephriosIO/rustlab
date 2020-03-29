@@ -1,0 +1,75 @@
+.totalplayers {
+  color: whitesmoke;
+  font-family: 'Rubik', sans-serif;
+  font-size: 4.25rem;
+  text-align: center;
+}
+
+.servers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.server-1 {
+  background-color: white;
+  color: black;
+  width: 33%;
+  height: 500px;
+  flex: 0 0 25%;
+}
+
+.server-1 .card-box {
+  padding: 0 2rem;
+}
+
+.borderserver {
+  position: relative;
+  background: #eaeaea;
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 15px;
+}
+
+.player-count {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.server-info {
+  list-style: none;
+  padding-left: 10px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  font-variant: petite-caps;
+}
+
+.server-1 .section-btn {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+}
+
+.server-1 .section-btn .btn {
+  font-weight: 500;
+  border-width: 2px;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 0.4rem 0.8rem;
+  white-space: normal;
+  transition: all 0.3s ease-in-out;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+  position: relative;
+  border-color: #0b566f;
+  color: #0b566f;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+}
