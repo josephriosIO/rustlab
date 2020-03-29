@@ -8,15 +8,18 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <ServersPanel />
-      <section className='discord-section'>
-        <a className='btn' href='https://discord.gg/FxNpvp6'>
-          <span class='socicon socicon-discord padding-right'></span>
-          Join
-        </a>
-      </section>
-
-      <p>© {date.getFullYear()} RustLab</p>
+      <body className='main'>
+        <ServersPanel />
+        <section className='discord-section'>
+          <a className='btn' href='https://discord.gg/FxNpvp6'>
+            <span class='socicon socicon-discord padding-right'></span>
+            Join
+          </a>
+        </section>
+      </body>
+      <footer className='footer'>
+        <p>© {date.getFullYear()} RustLab</p>
+      </footer>
     </div>
   );
 }
