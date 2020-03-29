@@ -2,8 +2,46 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  min-height: 60px;
+  transition: all 0.2s;
+  padding: 0.1rem 0;
+}
+.navbar .nav-brand {
+  display: flex;
+  margin-left: 2rem;
+  padding: 0;
+  transition: padding 0.2s;
+  min-height: 3.8rem;
+  align-items: center;
 }
 
-.navbar #logo {
-  margin-left: 25px;
+.navbar .nav-brand #logo {
+  margin: 0;
+  overflow: hidden;
+  border-right: 0.12em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
 }
