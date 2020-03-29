@@ -15,7 +15,7 @@
   background-color: white;
   color: black;
   width: 33%;
-  height: 550px;
+  height: 600px;
   flex: 0 0 25%;
 }
 
@@ -92,27 +92,6 @@
     color: black;
     width: 50%;
     height: 550px;
-    flex: 0 0 75%;
-  }
-
-  .server-1 .section-btn .connect {
-    display: none;
-  }
-}
-
-/* large desktop view */
-@media screen and (max-width: 2000px) {
-  .totalplayers {
-    color: whitesmoke;
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.75rem;
-    text-align: center;
-  }
-  .server-1 {
-    background-color: white;
-    color: black;
-    width: 50%;
-    height: 600px;
     flex: 0 0 75%;
   }
 
