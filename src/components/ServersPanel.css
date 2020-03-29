@@ -100,8 +100,8 @@
   }
 }
 
-/* mobile view */
-@media screen and (min-width: 2000px) {
+/* large desktop view */
+@media screen and (max-width: 2000px) {
   .totalplayers {
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
