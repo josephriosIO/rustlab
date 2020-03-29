@@ -3,9 +3,8 @@
   color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  padding-bottom: 60px; /* Height of the footer */
 }
 
 .discord-section {
@@ -41,11 +40,11 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #2e2e2e;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
 }
