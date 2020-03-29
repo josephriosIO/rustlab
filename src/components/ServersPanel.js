@@ -30,7 +30,7 @@ const ServersPanel = () => {
           <div className='server-1'>
             <img src={serverData.image} style={{ width: '100%' }} />
             <div className='card-box'>
-              <p>{serverData.hostname}</p>
+              <p>RUSTLAB 2X SOLO/DUO/TRIO</p>
               <p>IP: {serverData.ip}</p>
               <div
                 style={{ backgroundColor: 'green !important;' }}
